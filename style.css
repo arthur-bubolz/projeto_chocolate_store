@@ -12,6 +12,7 @@ p span {
     background-image: url('img/ibos.jpg');
     background-repeat: no-repeat;
     background-position: 80% 20%;
+    width: 100%;
 }
 
 .topo{
