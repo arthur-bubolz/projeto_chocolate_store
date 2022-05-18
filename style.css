@@ -74,10 +74,14 @@ p span {
 
 .imagem{
     position: relative;
+    background-image: url('img/brush-big.jpg');
     border: solid rgb(235, 206, 170) 15px;
     margin-top: -50px;
     margin-left: 50px;
     float: left;
+    width: 300px;
+    height: 500px;
+    background-position: center;
 }
 
 .texto{
@@ -92,4 +96,20 @@ p span {
 .texto h2{
     color: rgb(163, 143, 118);
     border-bottom: solid rgb(163, 143, 118) 5px;
+}
+
+@media (max-width: 768px){
+    .middle{
+        margin-top: -10px;
+    }
+
+    .imagem{
+        position: relative;
+        border: solid rgb(235, 206, 170) 15px;
+        margin-top: -10px;
+        margin-left: 10px;
+        float: left;
+        height: 400px;
+        background-position: 80% 20%;
+    }
 }
